@@ -38,7 +38,7 @@ void Listener::start() {
     memset(&serveraddr, 0, sizeof(serveraddr));
     serveraddr.sin_family = AF_INET;
     serveraddr.sin_addr.s_addr = htonl(INADDR_ANY);
-    serveraddr.sin_port = htons(80);
+    serveraddr.sin_port = htons(8080);
 
     int state = bind(server_sockfd, (struct  sockaddr *)&serveraddr, sizeof(serveraddr));
 

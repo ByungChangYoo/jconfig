@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /snap/clion/158/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = /snap/clion/158/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/blueeyes/CLionProjects/config
+CMAKE_SOURCE_DIR = /home/blueeyes/CLionProjects/jconfig
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/blueeyes/CLionProjects/config/cmake-build-debug
+CMAKE_BINARY_DIR = /home/blueeyes/CLionProjects/jconfig/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/config.dir/depend.make
@@ -78,627 +78,627 @@ include CMakeFiles/config.dir/flags.make
 
 CMakeFiles/config.dir/main.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/config.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/main.cpp.o -c /Users/blueeyes/CLionProjects/config/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/config.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/main.cpp.o -c /home/blueeyes/CLionProjects/jconfig/main.cpp
 
 CMakeFiles/config.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/main.cpp > CMakeFiles/config.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/main.cpp > CMakeFiles/config.dir/main.cpp.i
 
 CMakeFiles/config.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/main.cpp -o CMakeFiles/config.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/main.cpp -o CMakeFiles/config.dir/main.cpp.s
 
 CMakeFiles/config.dir/src/token.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/token.cpp.o: ../src/token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/config.dir/src/token.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/token.cpp.o -c /Users/blueeyes/CLionProjects/config/src/token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/config.dir/src/token.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/token.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/token.cpp
 
 CMakeFiles/config.dir/src/token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/token.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/token.cpp > CMakeFiles/config.dir/src/token.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/token.cpp > CMakeFiles/config.dir/src/token.cpp.i
 
 CMakeFiles/config.dir/src/token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/token.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/token.cpp -o CMakeFiles/config.dir/src/token.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/token.cpp -o CMakeFiles/config.dir/src/token.cpp.s
 
 CMakeFiles/config.dir/src/tokenbuilder.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/tokenbuilder.cpp.o: ../src/tokenbuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/config.dir/src/tokenbuilder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/tokenbuilder.cpp.o -c /Users/blueeyes/CLionProjects/config/src/tokenbuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/config.dir/src/tokenbuilder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/tokenbuilder.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/tokenbuilder.cpp
 
 CMakeFiles/config.dir/src/tokenbuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/tokenbuilder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/tokenbuilder.cpp > CMakeFiles/config.dir/src/tokenbuilder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/tokenbuilder.cpp > CMakeFiles/config.dir/src/tokenbuilder.cpp.i
 
 CMakeFiles/config.dir/src/tokenbuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/tokenbuilder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/tokenbuilder.cpp -o CMakeFiles/config.dir/src/tokenbuilder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/tokenbuilder.cpp -o CMakeFiles/config.dir/src/tokenbuilder.cpp.s
 
 CMakeFiles/config.dir/src/tokeniterator.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/tokeniterator.cpp.o: ../src/tokeniterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/config.dir/src/tokeniterator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/tokeniterator.cpp.o -c /Users/blueeyes/CLionProjects/config/src/tokeniterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/config.dir/src/tokeniterator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/tokeniterator.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/tokeniterator.cpp
 
 CMakeFiles/config.dir/src/tokeniterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/tokeniterator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/tokeniterator.cpp > CMakeFiles/config.dir/src/tokeniterator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/tokeniterator.cpp > CMakeFiles/config.dir/src/tokeniterator.cpp.i
 
 CMakeFiles/config.dir/src/tokeniterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/tokeniterator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/tokeniterator.cpp -o CMakeFiles/config.dir/src/tokeniterator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/tokeniterator.cpp -o CMakeFiles/config.dir/src/tokeniterator.cpp.s
 
 CMakeFiles/config.dir/src/tokenqueue.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/tokenqueue.cpp.o: ../src/tokenqueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/config.dir/src/tokenqueue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/tokenqueue.cpp.o -c /Users/blueeyes/CLionProjects/config/src/tokenqueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/config.dir/src/tokenqueue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/tokenqueue.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/tokenqueue.cpp
 
 CMakeFiles/config.dir/src/tokenqueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/tokenqueue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/tokenqueue.cpp > CMakeFiles/config.dir/src/tokenqueue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/tokenqueue.cpp > CMakeFiles/config.dir/src/tokenqueue.cpp.i
 
 CMakeFiles/config.dir/src/tokenqueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/tokenqueue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/tokenqueue.cpp -o CMakeFiles/config.dir/src/tokenqueue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/tokenqueue.cpp -o CMakeFiles/config.dir/src/tokenqueue.cpp.s
 
 CMakeFiles/config.dir/src/path.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/path.cpp.o: ../src/path.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/config.dir/src/path.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/path.cpp.o -c /Users/blueeyes/CLionProjects/config/src/path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/config.dir/src/path.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/path.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/path.cpp
 
 CMakeFiles/config.dir/src/path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/path.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/path.cpp > CMakeFiles/config.dir/src/path.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/path.cpp > CMakeFiles/config.dir/src/path.cpp.i
 
 CMakeFiles/config.dir/src/path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/path.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/path.cpp -o CMakeFiles/config.dir/src/path.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/path.cpp -o CMakeFiles/config.dir/src/path.cpp.s
 
 CMakeFiles/config.dir/src/configvalue.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/configvalue.cpp.o: ../src/configvalue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/config.dir/src/configvalue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/configvalue.cpp.o -c /Users/blueeyes/CLionProjects/config/src/configvalue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/config.dir/src/configvalue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/configvalue.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/configvalue.cpp
 
 CMakeFiles/config.dir/src/configvalue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/configvalue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/configvalue.cpp > CMakeFiles/config.dir/src/configvalue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/configvalue.cpp > CMakeFiles/config.dir/src/configvalue.cpp.i
 
 CMakeFiles/config.dir/src/configvalue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/configvalue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/configvalue.cpp -o CMakeFiles/config.dir/src/configvalue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/configvalue.cpp -o CMakeFiles/config.dir/src/configvalue.cpp.s
 
 CMakeFiles/config.dir/src/configdocument.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/configdocument.cpp.o: ../src/configdocument.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/config.dir/src/configdocument.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/configdocument.cpp.o -c /Users/blueeyes/CLionProjects/config/src/configdocument.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/config.dir/src/configdocument.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/configdocument.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/configdocument.cpp
 
 CMakeFiles/config.dir/src/configdocument.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/configdocument.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/configdocument.cpp > CMakeFiles/config.dir/src/configdocument.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/configdocument.cpp > CMakeFiles/config.dir/src/configdocument.cpp.i
 
 CMakeFiles/config.dir/src/configdocument.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/configdocument.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/configdocument.cpp -o CMakeFiles/config.dir/src/configdocument.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/configdocument.cpp -o CMakeFiles/config.dir/src/configdocument.cpp.s
 
 CMakeFiles/config.dir/src/arrayvalue.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/arrayvalue.cpp.o: ../src/arrayvalue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/config.dir/src/arrayvalue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/arrayvalue.cpp.o -c /Users/blueeyes/CLionProjects/config/src/arrayvalue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/config.dir/src/arrayvalue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/arrayvalue.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/arrayvalue.cpp
 
 CMakeFiles/config.dir/src/arrayvalue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/arrayvalue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/arrayvalue.cpp > CMakeFiles/config.dir/src/arrayvalue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/arrayvalue.cpp > CMakeFiles/config.dir/src/arrayvalue.cpp.i
 
 CMakeFiles/config.dir/src/arrayvalue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/arrayvalue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/arrayvalue.cpp -o CMakeFiles/config.dir/src/arrayvalue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/arrayvalue.cpp -o CMakeFiles/config.dir/src/arrayvalue.cpp.s
 
 CMakeFiles/config.dir/src/emptyvalue.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/emptyvalue.cpp.o: ../src/emptyvalue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/config.dir/src/emptyvalue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/emptyvalue.cpp.o -c /Users/blueeyes/CLionProjects/config/src/emptyvalue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/config.dir/src/emptyvalue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/emptyvalue.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/emptyvalue.cpp
 
 CMakeFiles/config.dir/src/emptyvalue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/emptyvalue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/emptyvalue.cpp > CMakeFiles/config.dir/src/emptyvalue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/emptyvalue.cpp > CMakeFiles/config.dir/src/emptyvalue.cpp.i
 
 CMakeFiles/config.dir/src/emptyvalue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/emptyvalue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/emptyvalue.cpp -o CMakeFiles/config.dir/src/emptyvalue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/emptyvalue.cpp -o CMakeFiles/config.dir/src/emptyvalue.cpp.s
 
 CMakeFiles/config.dir/src/methodvalue.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/methodvalue.cpp.o: ../src/methodvalue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/config.dir/src/methodvalue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/methodvalue.cpp.o -c /Users/blueeyes/CLionProjects/config/src/methodvalue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/config.dir/src/methodvalue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/methodvalue.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/methodvalue.cpp
 
 CMakeFiles/config.dir/src/methodvalue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/methodvalue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/methodvalue.cpp > CMakeFiles/config.dir/src/methodvalue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/methodvalue.cpp > CMakeFiles/config.dir/src/methodvalue.cpp.i
 
 CMakeFiles/config.dir/src/methodvalue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/methodvalue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/methodvalue.cpp -o CMakeFiles/config.dir/src/methodvalue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/methodvalue.cpp -o CMakeFiles/config.dir/src/methodvalue.cpp.s
 
 CMakeFiles/config.dir/src/objectvalue.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/objectvalue.cpp.o: ../src/objectvalue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/config.dir/src/objectvalue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/objectvalue.cpp.o -c /Users/blueeyes/CLionProjects/config/src/objectvalue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/config.dir/src/objectvalue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/objectvalue.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/objectvalue.cpp
 
 CMakeFiles/config.dir/src/objectvalue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/objectvalue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/objectvalue.cpp > CMakeFiles/config.dir/src/objectvalue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/objectvalue.cpp > CMakeFiles/config.dir/src/objectvalue.cpp.i
 
 CMakeFiles/config.dir/src/objectvalue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/objectvalue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/objectvalue.cpp -o CMakeFiles/config.dir/src/objectvalue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/objectvalue.cpp -o CMakeFiles/config.dir/src/objectvalue.cpp.s
 
 CMakeFiles/config.dir/src/textvalue.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/textvalue.cpp.o: ../src/textvalue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/config.dir/src/textvalue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/textvalue.cpp.o -c /Users/blueeyes/CLionProjects/config/src/textvalue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/config.dir/src/textvalue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/textvalue.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/textvalue.cpp
 
 CMakeFiles/config.dir/src/textvalue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/textvalue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/textvalue.cpp > CMakeFiles/config.dir/src/textvalue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/textvalue.cpp > CMakeFiles/config.dir/src/textvalue.cpp.i
 
 CMakeFiles/config.dir/src/textvalue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/textvalue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/textvalue.cpp -o CMakeFiles/config.dir/src/textvalue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/textvalue.cpp -o CMakeFiles/config.dir/src/textvalue.cpp.s
 
 CMakeFiles/config.dir/src/selector.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/selector.cpp.o: ../src/selector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/config.dir/src/selector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/selector.cpp.o -c /Users/blueeyes/CLionProjects/config/src/selector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/config.dir/src/selector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/selector.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/selector.cpp
 
 CMakeFiles/config.dir/src/selector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/selector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/selector.cpp > CMakeFiles/config.dir/src/selector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/selector.cpp > CMakeFiles/config.dir/src/selector.cpp.i
 
 CMakeFiles/config.dir/src/selector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/selector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/selector.cpp -o CMakeFiles/config.dir/src/selector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/selector.cpp -o CMakeFiles/config.dir/src/selector.cpp.s
 
 CMakeFiles/config.dir/src/charreader.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/charreader.cpp.o: ../src/charreader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/config.dir/src/charreader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/charreader.cpp.o -c /Users/blueeyes/CLionProjects/config/src/charreader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/config.dir/src/charreader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/charreader.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/charreader.cpp
 
 CMakeFiles/config.dir/src/charreader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/charreader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/charreader.cpp > CMakeFiles/config.dir/src/charreader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/charreader.cpp > CMakeFiles/config.dir/src/charreader.cpp.i
 
 CMakeFiles/config.dir/src/charreader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/charreader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/charreader.cpp -o CMakeFiles/config.dir/src/charreader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/charreader.cpp -o CMakeFiles/config.dir/src/charreader.cpp.s
 
 CMakeFiles/config.dir/src/stringreader.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/stringreader.cpp.o: ../src/stringreader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/config.dir/src/stringreader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/stringreader.cpp.o -c /Users/blueeyes/CLionProjects/config/src/stringreader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/config.dir/src/stringreader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/stringreader.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/stringreader.cpp
 
 CMakeFiles/config.dir/src/stringreader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/stringreader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/stringreader.cpp > CMakeFiles/config.dir/src/stringreader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/stringreader.cpp > CMakeFiles/config.dir/src/stringreader.cpp.i
 
 CMakeFiles/config.dir/src/stringreader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/stringreader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/stringreader.cpp -o CMakeFiles/config.dir/src/stringreader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/stringreader.cpp -o CMakeFiles/config.dir/src/stringreader.cpp.s
 
 CMakeFiles/config.dir/src/text.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/text.cpp.o: ../src/text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/config.dir/src/text.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/text.cpp.o -c /Users/blueeyes/CLionProjects/config/src/text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/config.dir/src/text.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/text.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/text.cpp
 
 CMakeFiles/config.dir/src/text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/text.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/text.cpp > CMakeFiles/config.dir/src/text.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/text.cpp > CMakeFiles/config.dir/src/text.cpp.i
 
 CMakeFiles/config.dir/src/text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/text.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/text.cpp -o CMakeFiles/config.dir/src/text.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/text.cpp -o CMakeFiles/config.dir/src/text.cpp.s
 
 CMakeFiles/config.dir/src/whitespace.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/whitespace.cpp.o: ../src/whitespace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/config.dir/src/whitespace.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/whitespace.cpp.o -c /Users/blueeyes/CLionProjects/config/src/whitespace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/config.dir/src/whitespace.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/whitespace.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/whitespace.cpp
 
 CMakeFiles/config.dir/src/whitespace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/whitespace.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/whitespace.cpp > CMakeFiles/config.dir/src/whitespace.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/whitespace.cpp > CMakeFiles/config.dir/src/whitespace.cpp.i
 
 CMakeFiles/config.dir/src/whitespace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/whitespace.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/whitespace.cpp -o CMakeFiles/config.dir/src/whitespace.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/whitespace.cpp -o CMakeFiles/config.dir/src/whitespace.cpp.s
 
 CMakeFiles/config.dir/src/singlelinecomment.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/singlelinecomment.cpp.o: ../src/singlelinecomment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/config.dir/src/singlelinecomment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/singlelinecomment.cpp.o -c /Users/blueeyes/CLionProjects/config/src/singlelinecomment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/config.dir/src/singlelinecomment.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/singlelinecomment.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/singlelinecomment.cpp
 
 CMakeFiles/config.dir/src/singlelinecomment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/singlelinecomment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/singlelinecomment.cpp > CMakeFiles/config.dir/src/singlelinecomment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/singlelinecomment.cpp > CMakeFiles/config.dir/src/singlelinecomment.cpp.i
 
 CMakeFiles/config.dir/src/singlelinecomment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/singlelinecomment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/singlelinecomment.cpp -o CMakeFiles/config.dir/src/singlelinecomment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/singlelinecomment.cpp -o CMakeFiles/config.dir/src/singlelinecomment.cpp.s
 
 CMakeFiles/config.dir/src/singlequotedtext.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/singlequotedtext.cpp.o: ../src/singlequotedtext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/config.dir/src/singlequotedtext.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/singlequotedtext.cpp.o -c /Users/blueeyes/CLionProjects/config/src/singlequotedtext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/config.dir/src/singlequotedtext.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/singlequotedtext.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/singlequotedtext.cpp
 
 CMakeFiles/config.dir/src/singlequotedtext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/singlequotedtext.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/singlequotedtext.cpp > CMakeFiles/config.dir/src/singlequotedtext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/singlequotedtext.cpp > CMakeFiles/config.dir/src/singlequotedtext.cpp.i
 
 CMakeFiles/config.dir/src/singlequotedtext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/singlequotedtext.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/singlequotedtext.cpp -o CMakeFiles/config.dir/src/singlequotedtext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/singlequotedtext.cpp -o CMakeFiles/config.dir/src/singlequotedtext.cpp.s
 
 CMakeFiles/config.dir/src/doublequotedtext.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/doublequotedtext.cpp.o: ../src/doublequotedtext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/config.dir/src/doublequotedtext.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/doublequotedtext.cpp.o -c /Users/blueeyes/CLionProjects/config/src/doublequotedtext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/config.dir/src/doublequotedtext.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/doublequotedtext.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/doublequotedtext.cpp
 
 CMakeFiles/config.dir/src/doublequotedtext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/doublequotedtext.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/doublequotedtext.cpp > CMakeFiles/config.dir/src/doublequotedtext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/doublequotedtext.cpp > CMakeFiles/config.dir/src/doublequotedtext.cpp.i
 
 CMakeFiles/config.dir/src/doublequotedtext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/doublequotedtext.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/doublequotedtext.cpp -o CMakeFiles/config.dir/src/doublequotedtext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/doublequotedtext.cpp -o CMakeFiles/config.dir/src/doublequotedtext.cpp.s
 
 CMakeFiles/config.dir/src/newline.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/newline.cpp.o: ../src/newline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/config.dir/src/newline.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/newline.cpp.o -c /Users/blueeyes/CLionProjects/config/src/newline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/config.dir/src/newline.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/newline.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/newline.cpp
 
 CMakeFiles/config.dir/src/newline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/newline.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/newline.cpp > CMakeFiles/config.dir/src/newline.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/newline.cpp > CMakeFiles/config.dir/src/newline.cpp.i
 
 CMakeFiles/config.dir/src/newline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/newline.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/newline.cpp -o CMakeFiles/config.dir/src/newline.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/newline.cpp -o CMakeFiles/config.dir/src/newline.cpp.s
 
 CMakeFiles/config.dir/src/bracket.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/bracket.cpp.o: ../src/bracket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/config.dir/src/bracket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/bracket.cpp.o -c /Users/blueeyes/CLionProjects/config/src/bracket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/config.dir/src/bracket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/bracket.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/bracket.cpp
 
 CMakeFiles/config.dir/src/bracket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/bracket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/bracket.cpp > CMakeFiles/config.dir/src/bracket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/bracket.cpp > CMakeFiles/config.dir/src/bracket.cpp.i
 
 CMakeFiles/config.dir/src/bracket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/bracket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/bracket.cpp -o CMakeFiles/config.dir/src/bracket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/bracket.cpp -o CMakeFiles/config.dir/src/bracket.cpp.s
 
 CMakeFiles/config.dir/src/closearray.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/closearray.cpp.o: ../src/closearray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/config.dir/src/closearray.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/closearray.cpp.o -c /Users/blueeyes/CLionProjects/config/src/closearray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/config.dir/src/closearray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/closearray.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/closearray.cpp
 
 CMakeFiles/config.dir/src/closearray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/closearray.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/closearray.cpp > CMakeFiles/config.dir/src/closearray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/closearray.cpp > CMakeFiles/config.dir/src/closearray.cpp.i
 
 CMakeFiles/config.dir/src/closearray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/closearray.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/closearray.cpp -o CMakeFiles/config.dir/src/closearray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/closearray.cpp -o CMakeFiles/config.dir/src/closearray.cpp.s
 
 CMakeFiles/config.dir/src/openarray.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/openarray.cpp.o: ../src/openarray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/config.dir/src/openarray.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/openarray.cpp.o -c /Users/blueeyes/CLionProjects/config/src/openarray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/config.dir/src/openarray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/openarray.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/openarray.cpp
 
 CMakeFiles/config.dir/src/openarray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/openarray.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/openarray.cpp > CMakeFiles/config.dir/src/openarray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/openarray.cpp > CMakeFiles/config.dir/src/openarray.cpp.i
 
 CMakeFiles/config.dir/src/openarray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/openarray.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/openarray.cpp -o CMakeFiles/config.dir/src/openarray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/openarray.cpp -o CMakeFiles/config.dir/src/openarray.cpp.s
 
 CMakeFiles/config.dir/src/closeobject.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/closeobject.cpp.o: ../src/closeobject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/config.dir/src/closeobject.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/closeobject.cpp.o -c /Users/blueeyes/CLionProjects/config/src/closeobject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/config.dir/src/closeobject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/closeobject.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/closeobject.cpp
 
 CMakeFiles/config.dir/src/closeobject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/closeobject.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/closeobject.cpp > CMakeFiles/config.dir/src/closeobject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/closeobject.cpp > CMakeFiles/config.dir/src/closeobject.cpp.i
 
 CMakeFiles/config.dir/src/closeobject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/closeobject.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/closeobject.cpp -o CMakeFiles/config.dir/src/closeobject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/closeobject.cpp -o CMakeFiles/config.dir/src/closeobject.cpp.s
 
 CMakeFiles/config.dir/src/openobject.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/openobject.cpp.o: ../src/openobject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/config.dir/src/openobject.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/openobject.cpp.o -c /Users/blueeyes/CLionProjects/config/src/openobject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/config.dir/src/openobject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/openobject.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/openobject.cpp
 
 CMakeFiles/config.dir/src/openobject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/openobject.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/openobject.cpp > CMakeFiles/config.dir/src/openobject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/openobject.cpp > CMakeFiles/config.dir/src/openobject.cpp.i
 
 CMakeFiles/config.dir/src/openobject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/openobject.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/openobject.cpp -o CMakeFiles/config.dir/src/openobject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/openobject.cpp -o CMakeFiles/config.dir/src/openobject.cpp.s
 
 CMakeFiles/config.dir/src/colon.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/colon.cpp.o: ../src/colon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/config.dir/src/colon.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/colon.cpp.o -c /Users/blueeyes/CLionProjects/config/src/colon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/config.dir/src/colon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/colon.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/colon.cpp
 
 CMakeFiles/config.dir/src/colon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/colon.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/colon.cpp > CMakeFiles/config.dir/src/colon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/colon.cpp > CMakeFiles/config.dir/src/colon.cpp.i
 
 CMakeFiles/config.dir/src/colon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/colon.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/colon.cpp -o CMakeFiles/config.dir/src/colon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/colon.cpp -o CMakeFiles/config.dir/src/colon.cpp.s
 
 CMakeFiles/config.dir/src/comma.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/comma.cpp.o: ../src/comma.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/config.dir/src/comma.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/comma.cpp.o -c /Users/blueeyes/CLionProjects/config/src/comma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/config.dir/src/comma.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/comma.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/comma.cpp
 
 CMakeFiles/config.dir/src/comma.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/comma.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/comma.cpp > CMakeFiles/config.dir/src/comma.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/comma.cpp > CMakeFiles/config.dir/src/comma.cpp.i
 
 CMakeFiles/config.dir/src/comma.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/comma.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/comma.cpp -o CMakeFiles/config.dir/src/comma.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/comma.cpp -o CMakeFiles/config.dir/src/comma.cpp.s
 
 CMakeFiles/config.dir/src/triplequotedtext.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/triplequotedtext.cpp.o: ../src/triplequotedtext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/config.dir/src/triplequotedtext.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/triplequotedtext.cpp.o -c /Users/blueeyes/CLionProjects/config/src/triplequotedtext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/config.dir/src/triplequotedtext.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/triplequotedtext.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/triplequotedtext.cpp
 
 CMakeFiles/config.dir/src/triplequotedtext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/triplequotedtext.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/triplequotedtext.cpp > CMakeFiles/config.dir/src/triplequotedtext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/triplequotedtext.cpp > CMakeFiles/config.dir/src/triplequotedtext.cpp.i
 
 CMakeFiles/config.dir/src/triplequotedtext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/triplequotedtext.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/triplequotedtext.cpp -o CMakeFiles/config.dir/src/triplequotedtext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/triplequotedtext.cpp -o CMakeFiles/config.dir/src/triplequotedtext.cpp.s
 
 CMakeFiles/config.dir/src/multiplelinecomment.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/multiplelinecomment.cpp.o: ../src/multiplelinecomment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/config.dir/src/multiplelinecomment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/multiplelinecomment.cpp.o -c /Users/blueeyes/CLionProjects/config/src/multiplelinecomment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/config.dir/src/multiplelinecomment.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/multiplelinecomment.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/multiplelinecomment.cpp
 
 CMakeFiles/config.dir/src/multiplelinecomment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/multiplelinecomment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/multiplelinecomment.cpp > CMakeFiles/config.dir/src/multiplelinecomment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/multiplelinecomment.cpp > CMakeFiles/config.dir/src/multiplelinecomment.cpp.i
 
 CMakeFiles/config.dir/src/multiplelinecomment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/multiplelinecomment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/multiplelinecomment.cpp -o CMakeFiles/config.dir/src/multiplelinecomment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/multiplelinecomment.cpp -o CMakeFiles/config.dir/src/multiplelinecomment.cpp.s
 
 CMakeFiles/config.dir/src/openmethod.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/openmethod.cpp.o: ../src/openmethod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/config.dir/src/openmethod.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/openmethod.cpp.o -c /Users/blueeyes/CLionProjects/config/src/openmethod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/config.dir/src/openmethod.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/openmethod.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/openmethod.cpp
 
 CMakeFiles/config.dir/src/openmethod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/openmethod.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/openmethod.cpp > CMakeFiles/config.dir/src/openmethod.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/openmethod.cpp > CMakeFiles/config.dir/src/openmethod.cpp.i
 
 CMakeFiles/config.dir/src/openmethod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/openmethod.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/openmethod.cpp -o CMakeFiles/config.dir/src/openmethod.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/openmethod.cpp -o CMakeFiles/config.dir/src/openmethod.cpp.s
 
 CMakeFiles/config.dir/src/closemethod.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/closemethod.cpp.o: ../src/closemethod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/config.dir/src/closemethod.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/closemethod.cpp.o -c /Users/blueeyes/CLionProjects/config/src/closemethod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/config.dir/src/closemethod.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/closemethod.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/closemethod.cpp
 
 CMakeFiles/config.dir/src/closemethod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/closemethod.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/closemethod.cpp > CMakeFiles/config.dir/src/closemethod.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/closemethod.cpp > CMakeFiles/config.dir/src/closemethod.cpp.i
 
 CMakeFiles/config.dir/src/closemethod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/closemethod.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/closemethod.cpp -o CMakeFiles/config.dir/src/closemethod.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/closemethod.cpp -o CMakeFiles/config.dir/src/closemethod.cpp.s
 
 CMakeFiles/config.dir/src/exclamation.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/exclamation.cpp.o: ../src/exclamation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/config.dir/src/exclamation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/exclamation.cpp.o -c /Users/blueeyes/CLionProjects/config/src/exclamation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/config.dir/src/exclamation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/exclamation.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/exclamation.cpp
 
 CMakeFiles/config.dir/src/exclamation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/exclamation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/exclamation.cpp > CMakeFiles/config.dir/src/exclamation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/exclamation.cpp > CMakeFiles/config.dir/src/exclamation.cpp.i
 
 CMakeFiles/config.dir/src/exclamation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/exclamation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/exclamation.cpp -o CMakeFiles/config.dir/src/exclamation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/exclamation.cpp -o CMakeFiles/config.dir/src/exclamation.cpp.s
 
 CMakeFiles/config.dir/src/parser.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/parser.cpp.o: ../src/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/config.dir/src/parser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/parser.cpp.o -c /Users/blueeyes/CLionProjects/config/src/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/config.dir/src/parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/parser.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/parser.cpp
 
 CMakeFiles/config.dir/src/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/parser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/parser.cpp > CMakeFiles/config.dir/src/parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/parser.cpp > CMakeFiles/config.dir/src/parser.cpp.i
 
 CMakeFiles/config.dir/src/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/parser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/parser.cpp -o CMakeFiles/config.dir/src/parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/parser.cpp -o CMakeFiles/config.dir/src/parser.cpp.s
 
 CMakeFiles/config.dir/src/objectparser.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/objectparser.cpp.o: ../src/objectparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/config.dir/src/objectparser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/objectparser.cpp.o -c /Users/blueeyes/CLionProjects/config/src/objectparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/config.dir/src/objectparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/objectparser.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/objectparser.cpp
 
 CMakeFiles/config.dir/src/objectparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/objectparser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/objectparser.cpp > CMakeFiles/config.dir/src/objectparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/objectparser.cpp > CMakeFiles/config.dir/src/objectparser.cpp.i
 
 CMakeFiles/config.dir/src/objectparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/objectparser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/objectparser.cpp -o CMakeFiles/config.dir/src/objectparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/objectparser.cpp -o CMakeFiles/config.dir/src/objectparser.cpp.s
 
 CMakeFiles/config.dir/src/arrayparser.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/arrayparser.cpp.o: ../src/arrayparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/config.dir/src/arrayparser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/arrayparser.cpp.o -c /Users/blueeyes/CLionProjects/config/src/arrayparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/config.dir/src/arrayparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/arrayparser.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/arrayparser.cpp
 
 CMakeFiles/config.dir/src/arrayparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/arrayparser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/arrayparser.cpp > CMakeFiles/config.dir/src/arrayparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/arrayparser.cpp > CMakeFiles/config.dir/src/arrayparser.cpp.i
 
 CMakeFiles/config.dir/src/arrayparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/arrayparser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/arrayparser.cpp -o CMakeFiles/config.dir/src/arrayparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/arrayparser.cpp -o CMakeFiles/config.dir/src/arrayparser.cpp.s
 
 CMakeFiles/config.dir/src/textparser.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/textparser.cpp.o: ../src/textparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/config.dir/src/textparser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/textparser.cpp.o -c /Users/blueeyes/CLionProjects/config/src/textparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/config.dir/src/textparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/textparser.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/textparser.cpp
 
 CMakeFiles/config.dir/src/textparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/textparser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/textparser.cpp > CMakeFiles/config.dir/src/textparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/textparser.cpp > CMakeFiles/config.dir/src/textparser.cpp.i
 
 CMakeFiles/config.dir/src/textparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/textparser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/textparser.cpp -o CMakeFiles/config.dir/src/textparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/textparser.cpp -o CMakeFiles/config.dir/src/textparser.cpp.s
 
 CMakeFiles/config.dir/src/field.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/field.cpp.o: ../src/field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/config.dir/src/field.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/field.cpp.o -c /Users/blueeyes/CLionProjects/config/src/field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/config.dir/src/field.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/field.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/field.cpp
 
 CMakeFiles/config.dir/src/field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/field.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/field.cpp > CMakeFiles/config.dir/src/field.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/field.cpp > CMakeFiles/config.dir/src/field.cpp.i
 
 CMakeFiles/config.dir/src/field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/field.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/field.cpp -o CMakeFiles/config.dir/src/field.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/field.cpp -o CMakeFiles/config.dir/src/field.cpp.s
 
 CMakeFiles/config.dir/src/http/httprequest.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/http/httprequest.cpp.o: ../src/http/httprequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/config.dir/src/http/httprequest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httprequest.cpp.o -c /Users/blueeyes/CLionProjects/config/src/http/httprequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/config.dir/src/http/httprequest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httprequest.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/http/httprequest.cpp
 
 CMakeFiles/config.dir/src/http/httprequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/http/httprequest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/http/httprequest.cpp > CMakeFiles/config.dir/src/http/httprequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/http/httprequest.cpp > CMakeFiles/config.dir/src/http/httprequest.cpp.i
 
 CMakeFiles/config.dir/src/http/httprequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/http/httprequest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/http/httprequest.cpp -o CMakeFiles/config.dir/src/http/httprequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/http/httprequest.cpp -o CMakeFiles/config.dir/src/http/httprequest.cpp.s
 
 CMakeFiles/config.dir/src/http/httprequestparser.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/http/httprequestparser.cpp.o: ../src/http/httprequestparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/config.dir/src/http/httprequestparser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httprequestparser.cpp.o -c /Users/blueeyes/CLionProjects/config/src/http/httprequestparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/config.dir/src/http/httprequestparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httprequestparser.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/http/httprequestparser.cpp
 
 CMakeFiles/config.dir/src/http/httprequestparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/http/httprequestparser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/http/httprequestparser.cpp > CMakeFiles/config.dir/src/http/httprequestparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/http/httprequestparser.cpp > CMakeFiles/config.dir/src/http/httprequestparser.cpp.i
 
 CMakeFiles/config.dir/src/http/httprequestparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/http/httprequestparser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/http/httprequestparser.cpp -o CMakeFiles/config.dir/src/http/httprequestparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/http/httprequestparser.cpp -o CMakeFiles/config.dir/src/http/httprequestparser.cpp.s
 
 CMakeFiles/config.dir/src/http/httpresponseparser.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/http/httpresponseparser.cpp.o: ../src/http/httpresponseparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/config.dir/src/http/httpresponseparser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httpresponseparser.cpp.o -c /Users/blueeyes/CLionProjects/config/src/http/httpresponseparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/config.dir/src/http/httpresponseparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httpresponseparser.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/http/httpresponseparser.cpp
 
 CMakeFiles/config.dir/src/http/httpresponseparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/http/httpresponseparser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/http/httpresponseparser.cpp > CMakeFiles/config.dir/src/http/httpresponseparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/http/httpresponseparser.cpp > CMakeFiles/config.dir/src/http/httpresponseparser.cpp.i
 
 CMakeFiles/config.dir/src/http/httpresponseparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/http/httpresponseparser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/http/httpresponseparser.cpp -o CMakeFiles/config.dir/src/http/httpresponseparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/http/httpresponseparser.cpp -o CMakeFiles/config.dir/src/http/httpresponseparser.cpp.s
 
 CMakeFiles/config.dir/src/http/chariterator.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/http/chariterator.cpp.o: ../src/http/chariterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/config.dir/src/http/chariterator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/chariterator.cpp.o -c /Users/blueeyes/CLionProjects/config/src/http/chariterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/config.dir/src/http/chariterator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/chariterator.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/http/chariterator.cpp
 
 CMakeFiles/config.dir/src/http/chariterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/http/chariterator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/http/chariterator.cpp > CMakeFiles/config.dir/src/http/chariterator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/http/chariterator.cpp > CMakeFiles/config.dir/src/http/chariterator.cpp.i
 
 CMakeFiles/config.dir/src/http/chariterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/http/chariterator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/http/chariterator.cpp -o CMakeFiles/config.dir/src/http/chariterator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/http/chariterator.cpp -o CMakeFiles/config.dir/src/http/chariterator.cpp.s
 
 CMakeFiles/config.dir/src/socket/listener.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/socket/listener.cpp.o: ../src/socket/listener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/config.dir/src/socket/listener.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/socket/listener.cpp.o -c /Users/blueeyes/CLionProjects/config/src/socket/listener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/config.dir/src/socket/listener.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/socket/listener.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/socket/listener.cpp
 
 CMakeFiles/config.dir/src/socket/listener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/socket/listener.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/socket/listener.cpp > CMakeFiles/config.dir/src/socket/listener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/socket/listener.cpp > CMakeFiles/config.dir/src/socket/listener.cpp.i
 
 CMakeFiles/config.dir/src/socket/listener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/socket/listener.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/socket/listener.cpp -o CMakeFiles/config.dir/src/socket/listener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/socket/listener.cpp -o CMakeFiles/config.dir/src/socket/listener.cpp.s
 
 CMakeFiles/config.dir/src/http/request.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/http/request.cpp.o: ../src/http/request.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/config.dir/src/http/request.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/request.cpp.o -c /Users/blueeyes/CLionProjects/config/src/http/request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/config.dir/src/http/request.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/request.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/http/request.cpp
 
 CMakeFiles/config.dir/src/http/request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/http/request.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/http/request.cpp > CMakeFiles/config.dir/src/http/request.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/http/request.cpp > CMakeFiles/config.dir/src/http/request.cpp.i
 
 CMakeFiles/config.dir/src/http/request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/http/request.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/http/request.cpp -o CMakeFiles/config.dir/src/http/request.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/http/request.cpp -o CMakeFiles/config.dir/src/http/request.cpp.s
 
 CMakeFiles/config.dir/src/http/httpheader.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/http/httpheader.cpp.o: ../src/http/httpheader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/config.dir/src/http/httpheader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httpheader.cpp.o -c /Users/blueeyes/CLionProjects/config/src/http/httpheader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/config.dir/src/http/httpheader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httpheader.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/http/httpheader.cpp
 
 CMakeFiles/config.dir/src/http/httpheader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/http/httpheader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/http/httpheader.cpp > CMakeFiles/config.dir/src/http/httpheader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/http/httpheader.cpp > CMakeFiles/config.dir/src/http/httpheader.cpp.i
 
 CMakeFiles/config.dir/src/http/httpheader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/http/httpheader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/http/httpheader.cpp -o CMakeFiles/config.dir/src/http/httpheader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/http/httpheader.cpp -o CMakeFiles/config.dir/src/http/httpheader.cpp.s
 
 CMakeFiles/config.dir/src/http/httpheaderparser.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/http/httpheaderparser.cpp.o: ../src/http/httpheaderparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/config.dir/src/http/httpheaderparser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httpheaderparser.cpp.o -c /Users/blueeyes/CLionProjects/config/src/http/httpheaderparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/config.dir/src/http/httpheaderparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/http/httpheaderparser.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/http/httpheaderparser.cpp
 
 CMakeFiles/config.dir/src/http/httpheaderparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/http/httpheaderparser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/http/httpheaderparser.cpp > CMakeFiles/config.dir/src/http/httpheaderparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/http/httpheaderparser.cpp > CMakeFiles/config.dir/src/http/httpheaderparser.cpp.i
 
 CMakeFiles/config.dir/src/http/httpheaderparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/http/httpheaderparser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/http/httpheaderparser.cpp -o CMakeFiles/config.dir/src/http/httpheaderparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/http/httpheaderparser.cpp -o CMakeFiles/config.dir/src/http/httpheaderparser.cpp.s
 
 CMakeFiles/config.dir/src/bytebuffer.cpp.o: CMakeFiles/config.dir/flags.make
 CMakeFiles/config.dir/src/bytebuffer.cpp.o: ../src/bytebuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/config.dir/src/bytebuffer.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/bytebuffer.cpp.o -c /Users/blueeyes/CLionProjects/config/src/bytebuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/config.dir/src/bytebuffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/config.dir/src/bytebuffer.cpp.o -c /home/blueeyes/CLionProjects/jconfig/src/bytebuffer.cpp
 
 CMakeFiles/config.dir/src/bytebuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/config.dir/src/bytebuffer.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/blueeyes/CLionProjects/config/src/bytebuffer.cpp > CMakeFiles/config.dir/src/bytebuffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/blueeyes/CLionProjects/jconfig/src/bytebuffer.cpp > CMakeFiles/config.dir/src/bytebuffer.cpp.i
 
 CMakeFiles/config.dir/src/bytebuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/config.dir/src/bytebuffer.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/blueeyes/CLionProjects/config/src/bytebuffer.cpp -o CMakeFiles/config.dir/src/bytebuffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/blueeyes/CLionProjects/jconfig/src/bytebuffer.cpp -o CMakeFiles/config.dir/src/bytebuffer.cpp.s
 
 # Object files for target config
 config_OBJECTS = \
@@ -804,7 +804,7 @@ config: CMakeFiles/config.dir/src/http/httpheaderparser.cpp.o
 config: CMakeFiles/config.dir/src/bytebuffer.cpp.o
 config: CMakeFiles/config.dir/build.make
 config: CMakeFiles/config.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable config"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/config.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -817,6 +817,6 @@ CMakeFiles/config.dir/clean:
 .PHONY : CMakeFiles/config.dir/clean
 
 CMakeFiles/config.dir/depend:
-	cd /Users/blueeyes/CLionProjects/config/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/blueeyes/CLionProjects/config /Users/blueeyes/CLionProjects/config /Users/blueeyes/CLionProjects/config/cmake-build-debug /Users/blueeyes/CLionProjects/config/cmake-build-debug /Users/blueeyes/CLionProjects/config/cmake-build-debug/CMakeFiles/config.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/blueeyes/CLionProjects/jconfig/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/blueeyes/CLionProjects/jconfig /home/blueeyes/CLionProjects/jconfig /home/blueeyes/CLionProjects/jconfig/cmake-build-debug /home/blueeyes/CLionProjects/jconfig/cmake-build-debug /home/blueeyes/CLionProjects/jconfig/cmake-build-debug/CMakeFiles/config.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/config.dir/depend
 

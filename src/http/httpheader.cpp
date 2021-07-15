@@ -15,6 +15,7 @@
  */
 
 #include <iostream>
+#include <algorithm>
 #include "httpheader.h"
 
 void HttpHeader::addHeader(const std::string &name, const std::string &value) {

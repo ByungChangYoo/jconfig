@@ -8,364 +8,366 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/blueeyes/CLionProjects/config/cmake-build-debug"/>
+				<Option working_dir="/home/blueeyes/CLionProjects/jconfig/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/blueeyes/CLionProjects/config/cmake-build-debug"/>
+				<Option working_dir="/home/blueeyes/CLionProjects/jconfig/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/blueeyes/CLionProjects/config/cmake-build-debug"/>
+				<Option working_dir="/home/blueeyes/CLionProjects/jconfig/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="config">
-				<Option output="/Users/blueeyes/CLionProjects/config/cmake-build-debug/config" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/blueeyes/CLionProjects/config/cmake-build-debug"/>
+				<Option output="/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/config" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blueeyes/CLionProjects/jconfig/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 config"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 config"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="config/fast">
-				<Option output="/Users/blueeyes/CLionProjects/config/cmake-build-debug/config" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/blueeyes/CLionProjects/config/cmake-build-debug"/>
+				<Option output="/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/config" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/blueeyes/CLionProjects/jconfig/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 config/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/blueeyes/CLionProjects/config/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 config/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/blueeyes/CLionProjects/jconfig/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/main.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/main.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/arrayparser.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/arrayparser.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/arrayparser.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/arrayparser.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/arrayvalue.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/arrayvalue.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/arrayvalue.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/arrayvalue.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/bracket.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/bracket.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/bracket.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/bracket.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/bytebuffer.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/bytebuffer.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/bytebuffer.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/bytebuffer.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/charreader.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/charreader.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/charreader.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/charreader.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/closearray.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/closearray.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/closearray.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/closearray.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/closemethod.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/closemethod.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/closemethod.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/closemethod.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/closeobject.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/closeobject.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/closeobject.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/closeobject.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/colon.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/colon.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/colon.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/colon.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/comma.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/comma.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/comma.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/comma.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/configdocument.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/configdocument.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/configdocument.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/configdocument.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/configvalue.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/configvalue.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/configvalue.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/configvalue.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/doublequotedtext.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/doublequotedtext.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/doublequotedtext.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/doublequotedtext.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/emptyvalue.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/emptyvalue.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/emptyvalue.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/emptyvalue.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/exclamation.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/exclamation.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/exclamation.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/exclamation.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/field.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/field.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/field.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/field.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/chariterator.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/chariterator.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/chariterator.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/chariterator.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httpheader.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httpheader.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httpheader.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httpheader.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httpheaderparser.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httpheaderparser.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httpheaderparser.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httpheaderparser.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httprequest.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httprequest.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httprequest.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httprequest.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httprequestparser.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httprequestparser.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httprequestparser.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httprequestparser.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httpresponseparser.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httpresponseparser.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/httpresponseparser.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/httpresponseparser.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/request.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/request.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/http/request.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/http/request.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/methodvalue.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/methodvalue.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/methodvalue.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/methodvalue.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/multiplelinecomment.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/multiplelinecomment.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/multiplelinecomment.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/multiplelinecomment.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/newline.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/newline.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/newline.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/newline.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/objectparser.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/objectparser.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/objectparser.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/objectparser.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/objectvalue.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/objectvalue.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/objectvalue.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/objectvalue.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/openarray.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/openarray.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/openarray.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/openarray.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/openmethod.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/openmethod.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/openmethod.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/openmethod.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/openobject.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/openobject.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/openobject.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/openobject.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/parser.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/parser.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/parser.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/parser.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/path.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/path.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/path.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/path.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/selector.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/selector.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/selector.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/selector.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/singlelinecomment.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/singlelinecomment.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/singlelinecomment.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/singlelinecomment.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/singlequotedtext.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/singlequotedtext.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/singlequotedtext.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/singlequotedtext.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/socket/listener.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/socket/listener.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/socket/listener.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/socket/listener.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/stringreader.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/stringreader.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/stringreader.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/stringreader.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/text.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/text.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/text.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/text.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/textparser.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/textparser.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/textparser.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/textparser.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/textvalue.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/textvalue.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/textvalue.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/textvalue.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/token.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/token.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/token.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/token.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/tokenbuilder.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/tokenbuilder.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/tokenbuilder.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/tokenbuilder.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/tokeniterator.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/tokeniterator.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/tokeniterator.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/tokeniterator.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/tokenqueue.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/tokenqueue.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/tokenqueue.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/tokenqueue.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/triplequotedtext.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/triplequotedtext.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/triplequotedtext.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/triplequotedtext.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/whitespace.cpp">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/whitespace.cpp">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/src/whitespace.h">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/src/whitespace.h">
 			<Option target="config"/>
 		</Unit>
-		<Unit filename="/Users/blueeyes/CLionProjects/config/CMakeLists.txt">
+		<Unit filename="/home/blueeyes/CLionProjects/jconfig/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

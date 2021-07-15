@@ -19,6 +19,7 @@
 
 
 #include <string>
+#include <functional>
 
 class ConfigValue {
 public:

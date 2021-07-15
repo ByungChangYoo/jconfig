@@ -16,6 +16,7 @@
 
 #include "objectvalue.h"
 #include "field.h"
+#include <algorithm>
 
 bool ObjectValue::isObject() {
     return true;
