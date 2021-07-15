@@ -1,0 +1,35 @@
+http["7070"] : {
+     domain["www.potalab.com"] : {
+         send(a.html, b.html, @fallback0)
+
+          path["@fallback0"] : {
+            trace("@fallback-0")
+            send(@fallback1)
+          }
+
+           path["@fallback1"] : {
+              trace("@fallback-1")
+              send(@fallback2)
+           }
+
+           path["@fallback2"] : {
+              trace("@fallback-2")
+              send(@fallback3)
+           }
+
+          path["@fallback3"] : {
+              trace("@fallback-2")
+              #root : /Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/public/
+              root : /Users/
+              #return (200, "this is fallback")
+          }
+     }
+
+     domain["localhost", "127.0.0.1"] : {
+        trace("aa")
+        send(a.html, b.html, @fallback)
+         path["@fallback"] : {
+                return (200, "this is fallback")
+                  }
+     }
+}

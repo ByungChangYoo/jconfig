@@ -1,0 +1,15 @@
+http["7070", "9090"] : {
+     domain["www.potalab.com"] : {
+        location : {
+            # remove trailing slash
+            rewrite("^/(.*)(?:/)$" "/$1")
+            return (200, """<html>
+            <body>
+             <h1>Welcome !!</h1>
+             <br>
+             <a href="http://www.potalab.com:7070/index.html">index.html</a>
+            </body>
+            </html>""")
+         }
+     }
+}

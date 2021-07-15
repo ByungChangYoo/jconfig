@@ -1,0 +1,42 @@
+http[80] : {
+    method : {
+      deny : POST
+    }
+     header : {
+        "A" : "A"
+        "B" : "B"
+     }
+
+     types : {
+        "text/html" : [html, htm]
+         "image/jpg" : [jpg]
+     }
+
+    root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources"
+    domain["localhost" ,"www.potalab.com"] : {
+       header : {
+              "C" : "C"
+              "D" : "D"
+           }
+
+        path["/"] : {
+            header : {
+                "E" : "E"
+                "F" : "F"
+            }
+
+            types : {
+                "text/plain" : [jpg]
+            }
+            send("${uri}", "/public/404.html")
+            return ("Ooops!!")
+        }
+    }
+
+    domain["www.dalcomlab.com"] : {
+            path["/"] : {
+                send("${uri}", "/public/404A.html")
+                return ("Woooo!!")
+            }
+    }
+}

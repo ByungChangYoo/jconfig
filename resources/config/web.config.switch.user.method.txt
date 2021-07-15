@@ -1,0 +1,31 @@
+http["80"] : {
+    domain["localhost"] : {
+        path["/"] : {
+            switch("^/user/(\w+)", "${g:1}") : {
+                "=yoo" : {
+                    return ("Hello, yoo")
+                }
+
+                "=hong" : {
+                    return ("Hello, hong")
+                }
+
+                "default" : {
+                    switch("${method}") : {
+                       "/GET" : {
+                            return ("You are not user! - GET")
+                        }
+
+                        "/POST" : {
+                            return ("You are not user! - POST")
+                        }
+
+                        "default" : {
+                            return ("You are not user! - Unknown")
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

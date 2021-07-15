@@ -1,0 +1,60 @@
+http[8080, 9090] : {
+     mime : {
+       "text/html" : [html, htm]
+       "text/xml" : xml
+       "text/plain" : [txt, config, conf, md]
+     }
+     domain["www.potalab.com"] : {
+         path["*"] : {
+            root : /www/public
+            alias : /www/public/static
+            add-header : {
+               "Server" : "potalab"
+            }
+            index : [a.html, b.htm, c.html]
+            file["hello.html"] : {}
+            file["/"] : {}
+         }
+       }
+     domain["www.dalcomlab.com"] : {
+         path["*"] : {
+            root : /www/public
+            add-header : {
+               "Server" : "dalcomlab"
+            }
+            index : [d.html, e.htm, f.html]
+            file[${uri}, "${uri}/"] : 404
+            file[${uri}, "${uri}/"] : @proxy
+            file[${uri}, "${uri}/"] : (404, "not found")
+            file[${uri}, "${uri}/"] : {
+                status : 200
+                header : {
+                  "Connection", "Close"
+                }
+                body : """"
+                Hellow
+                """
+            }
+
+         }
+   }
+}
+
+
+http[9090] : {
+    mime : {
+       "text/html" : xhtml
+       "text/js" : js
+       "text/css" : css
+    }
+    domain["www.potalab.com"] : {
+         path["*"] : {
+            root : /www/potalab/com
+         }
+       }
+     domain["www.dalcomlab.com"] : {
+         path["*"] : {
+           root : /www/dalcomlab/com
+         }
+   }
+}

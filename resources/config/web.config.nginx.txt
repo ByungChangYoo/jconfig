@@ -1,0 +1,20 @@
+http["80"] : {
+    types : {
+      text/html                             : [html htm shtml]
+      text/css                              : [css]
+      text/xml                              : [xml rss]
+      image/gif                             : [gif]
+      image/jpeg                            : [jpeg jpg]
+      application/x-javascript              : [js]
+      text/plain                            : [txt]
+      image/png                             : [png]
+    }
+     domain["www.potalab.com", "localhost"] : {
+         path["/"] : {
+           # root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/public/nginx"
+           root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources"
+           # index : [index.html, main.html]
+            send("${uri}");
+         }
+     }
+}

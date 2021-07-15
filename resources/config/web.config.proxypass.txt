@@ -1,0 +1,32 @@
+http["9090"] : {
+   domain["www.potalab.com", "localhost"] : {
+       root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/public"
+
+       path["/"] : {
+            proxypass("localhost:1010") : {
+                header : {
+                   "User-Agent-2" : "${h:user-agent}"
+                   "Cookie-2" : "${h:cookie}"
+                   "X-Forward-For" : "${host}"
+                    "-User-Agent" : ""
+                     "-Cookie" : ""
+                }
+            }
+       }
+/*
+       path["~.*(JPG|png|js|css)$"] : {
+            send("${uri}")
+       }
+ */
+   }
+}
+
+http["80"] : {
+   domain["www.dalcomlab.com", "www.potalab.com", "localhost"] : {
+       path["/"] : {
+            proxypass("localhost:1010")
+       }
+   }
+}
+
+

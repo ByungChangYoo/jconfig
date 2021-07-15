@@ -1,0 +1,12 @@
+http["80"] : {
+     domain["localhost"] : {
+        path["/product/"] : {
+            # rewrite("^/product/([0-9]+)/?$", "/products.jsp?id=${g:1}")
+            return("${uri}")
+        }
+
+        path["/products.jsp"] : {
+            return("${uri}")
+        }
+     }
+}

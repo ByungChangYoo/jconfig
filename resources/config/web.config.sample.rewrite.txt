@@ -1,0 +1,35 @@
+http["7070"] : {
+     domain["www.potalab.com"] : {
+        rewrite("^/de/shop/(\d+)/(.*)", "http://www.example.de/$1/$2")
+        rewrite("^/en/shop/(\d+)/(.*)", "http://www.example.com/$1/$2")
+
+        rewrite("^/de/(.*)-(\d+)", "http://www.example.de/$1-$2.html")
+        rewrite("^/en/(.*)-(\d+)", "http://www.example.com/$1-$2.html")
+
+        rewrite("^/de/shop/(.*)-(\d+)", "http://www.example.de/$1-$2.html")
+        rewrite("^/en/shop/(.*)-(\d+)", "http://www.example.com/$1-$2.html")
+
+        rewrite("^/de(.*)$", "http://www.example.de$1")
+        rewrite("^/en(.*)$", "http://www.example.com$1")
+
+          path["index.html"] : {
+               return (200, "index html")
+          }
+
+          path["index.jsp"] : {
+                return (200, "index jsp")
+          }
+     }
+
+      domain["localhost", "127.0.0.1"] : {
+             path["/files/"] : {
+                    return (200, "index html")
+             }
+
+             location : {
+                rewrite("^/docs/(.*)$", "files/docs/$1")
+                #rewrite("^/docs/(.*)$", "https://www.naver.com")
+                return (200, "ok!")
+             }
+      }
+}

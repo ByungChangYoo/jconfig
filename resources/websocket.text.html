@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Websocket - Chatting</title>
+    <script type="text/javascript">
+        let ws;
+        let response;
+        window.onload = function () {
+            response = document.getElementById("response");
+            document.getElementById("connect").onclick = connect;
+            document.getElementById("send").onclick = send;
+        }
+
+        function connect() {
+            if (window.location.protocol == 'https:') {
+                ws = new WebSocket("wss://" + window.location.host + "/websocket/text?a=a&b=b");
+            } else {
+                ws = new WebSocket("ws://" + window.location.host + "/websocket/text?a=a&b=b");
+            }
+            ws.onopen = function () {
+                response.value += "the websocket is opened.\n";
+            };
+
+            ws.onmessage = function (message) {
+                response.value += message.data + "\n";
+            };
+
+            ws.onclose = function () {
+                response.value += "the connection is closed\n";
+            };
+
+            ws.onerror = function (e) {
+                response.value += e + "\n";
+            }
+        }
+
+        function send() {
+            let message = document.getElementById("message").value;
+            ws.send(message);
+        }
+    </script>
+</head>
+<body>
+<h2>WebSocket Text</h2>
+<h3>Client:</h3>
+<input type="button" value="connect" id="connect"/>
+<input type="input" id="message"/>
+<input type="button" value="send" id="send"/>
+<br>
+<h3>Server:</h3>
+<textarea id="response" rows="20" cols="60"></textarea>
+</body>
+</html>

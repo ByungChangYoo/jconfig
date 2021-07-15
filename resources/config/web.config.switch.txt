@@ -1,0 +1,80 @@
+http["7070", "9090"] : {
+     domain["www.potalab.com"] : {
+        location : {
+            return (200, """<html>
+            <body>
+             <h1>Welcome !!</h1>
+             <br>
+             <a href="http://www.potalab.com:7070/index.html">index.html</a>
+            </body>
+            </html>""")
+         }
+
+        path["index.html"] : {
+            return (200, "Good Job")
+         }
+
+        path["404.html"] : {
+           switch("GET") : {
+                 "GET" : {
+                     switch("B") : {
+                        "A" : { return (200, "Method is GET - A")}
+                        "B" : {
+                            switch("Y") : {
+                                X : { return (200, "Method is GET - B - X") }
+                                [Y, Y1, Y2] : { return (200, "Method is GET - B - Y") }
+                                Z : { return (200, "Method is GET - B - Z") }
+                            }
+                        }
+                        "C" : { return (200, "Method is GET - C") }
+                      }
+                 }
+                 "POST" : {
+                    return (200, "Method is POST")
+                 }
+            }
+
+            switch("^/de/shop/(\d+)/(.*)", "$1") : {
+                "en" : {
+                      switch("${method}") : {
+                          "GET" : {
+                             return (200, "ok")
+                          }
+                      }
+                }
+
+                "fn" : {
+                       switch("${method}")
+                }
+            }
+
+            switch("${query_string}", ""^/de/shop/(\d+)/(.*)", "$1") : {
+                    "en" : {
+                          switch("${method}") : {
+                              "GET" : {
+                                 return (200, "ok")
+                              }
+                          }
+                    }
+
+                    "fn" : {
+                          switch("${method}")
+                    }
+            }
+
+            send("404.html", "${uri}$", "400.html", @fallback)
+         }
+
+         path[@fallback] : {
+            send("index.html")
+         }
+
+         path[@proxy] : {
+            proxypass("@upstream")
+         }
+     }
+
+     domain["localhost", "127.0.0.1"] : {
+        return(301, "http://www.potalab.com:7070")
+     }
+}

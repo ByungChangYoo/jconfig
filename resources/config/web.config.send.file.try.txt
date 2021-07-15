@@ -1,0 +1,4 @@
+http[80] : {
+    root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources"
+    send("/index.html", "/public/home.html", "/public/index.html")
+}

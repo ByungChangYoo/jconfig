@@ -1,0 +1,33 @@
+http["80"] : {
+     map["${uri}", "index"] : {
+        "default" : "index.html"
+        "~^/(kr|en|fr|jp)/?$" : "index_${g:1}.html"
+     }
+
+     domain["localhost"] : {
+        path["/"] : {
+            index : ${m:index}
+            forward("${m:index}")
+        }
+
+        path["=index.html"] : {
+            return ("default index.html")
+        }
+
+         path["=index_ko.html"] : {
+             return ("korean index.html")
+         }
+
+         path["=index_en.html"] : {
+             return ("english index.html")
+         }
+
+          path["=index_fr.html"] : {
+              return ("france index.html")
+          }
+
+         path[="index_jp.html"] : {
+              return ("japan index.html")
+          }
+     }
+}

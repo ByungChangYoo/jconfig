@@ -1,0 +1,22 @@
+http[80] : {
+   header : {
+           "Server": "Azumma server"
+           "X-Powered-By": "Blueeyes"
+       }
+
+    domain["www.potalab.com"] : {
+       root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/public"
+       header : {
+           Access-Control-Allow-Origin: "https://foo.example"
+           Access-Control-Allow-Methods: "POST, GET, OPTIONS"
+           Access-Control-Allow-Headers: "X-PINGOTHER, Content-Type"
+           "-X-Powered-By": ""
+       }
+       send("${uri}")
+    }
+
+     domain["localhost"] : {
+           root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/public"
+           send("${uri}")
+     }
+}

@@ -1,0 +1,15 @@
+http[80] : {
+    domain["www.potalab.com"] : {
+       root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/public"
+       send("${uri}")
+    }
+
+     domain["localhost"] : {
+           root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/public"
+           send("${uri}")
+            method : {
+              "deny" : "GET"
+              "allow" : "POST"
+           }
+     }
+}

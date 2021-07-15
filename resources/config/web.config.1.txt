@@ -1,0 +1,44 @@
+http[8080, 9090, 200, 443, 8009] : {
+     domain["www.potalab.com"] : {
+         path["*"] : {
+            root : /www/www.potalab.com/public
+            add-header : {
+               "Server" : "potalab"
+            }
+            index : [a.html, b.htm, c.html]
+         }
+       }
+     domain["www.dalcomlab.com"] : {
+         path["*"] : {
+            root : /www/www.dalcomlab.com/public
+            add-header : {
+               "Server" : "dalcomlab"
+            }
+            index : [d.html, e.htm, f.html]
+         }
+   }
+}
+
+
+http[9090, 1010] : {
+    domain["www.potalab.com"] : {
+         path["*"] : {
+            add-header : {
+               "Powered-By" : "potalab"
+            }
+            index : [1.html, 2.htm, 3.html]
+         }
+       }
+     domain["www.dalcomlab.com"] : {
+         path["*"] : {
+            request : {
+               max_header_count : 0;
+               max_
+            }
+            add-header : {
+               "Powered-By" : "dalcomlab"
+            }
+            index : [4.html, 5.htm, 6.html]
+         }
+   }
+}

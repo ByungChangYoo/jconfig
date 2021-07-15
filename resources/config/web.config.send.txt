@@ -1,0 +1,33 @@
+http["7070", "8080"] : {
+     domain["www.potalab.com", "localhost"] : {
+
+         send("index.c.html", "404.html", "@error")
+         path["~.*\.(htm|html)$"] : {
+             send("test.html", "a.html", "index.a.html", "index.b.html", "@error")
+         }
+
+
+         location : {
+            return (404, "Not found")
+         }
+
+         path[@error] : {
+            send("index.html")
+         }
+     }
+
+     domain["www.dalcomlab.com"] : {
+         path["index.html", "index.htm"] : {
+             return (200, "b dalcomalb! index.html")
+         }
+
+         path["home.html" "index"] : {
+             return (200, "b dalcomalb! home.html")
+         }
+    }
+
+    # default domain
+    domain : {
+        return (301, "http://www.potalab.com/${uri}")
+    }
+}

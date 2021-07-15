@@ -1,0 +1,26 @@
+http[80] : {
+     domain["localhost", "127.0.0.1", "www.potalab.com"] : {
+         header : {
+             Connection : Close
+             Set-Cookie : "jessionid=1234;name=yooo"
+         }
+       return (200, """<html>
+<body>
+ <h1>Welcome !!</h1>
+ <br>
+ <table border=1>
+    <tr>
+        <td>JSessionId</td>
+        <td>${c:_pk_id.1.1fff}</td>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>${c:_ga}</td>
+    </tr>
+
+ </table>
+ <a href="http://www.potalab.com:7070/index.html">index.html</a>
+</body>
+</html>""")
+     }
+}

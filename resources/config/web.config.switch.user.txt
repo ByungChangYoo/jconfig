@@ -1,0 +1,19 @@
+http["80"] : {
+    domain["localhost"] : {
+        path["/"] : {
+            switch("^/user/(\w+)", "$1") : {
+                "=yoo" : {
+                    return ("Hello, yoo")
+                }
+
+                "=hong" : {
+                    return ("Hello, hong")
+                }
+
+                "" : {
+                    return ("You are not user!")
+                }
+            }
+        }
+    }
+}

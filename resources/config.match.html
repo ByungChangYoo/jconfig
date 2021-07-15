@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        #config {
+            height: 20em;
+            font-family: monospace;
+        }
+        body {
+            background-color: #eee;
+        }
+        #footer {
+            margin-top: 5em;
+        }
+    </style>
+</head>
+<body onload="fill_defaults();">
+<div class="container-fluid">
+    <div class="page-header">
+        <h1>location match tester</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="config">configuration:</label>
+                <textarea id="config" class="form-control">
+{
+	http : {
+		server["8080"] : {
+
+			domain["www.potalab.com"] : {
+			    access : {
+			    	allow : [0.0.0.1],
+			    	allow : [0.0.0.2],
+			    	allow : [0.0.0.3],
+			    	deny :  [1.0.0.0],
+			    	deny :  [2.0.0.0],
+			    	deny :  [2.0.0.0],
+			    }
+
+				path["=/root"] : {
+					root : "/user/public/root"
+				}
+
+				path["~.*\\.(js|jpg|png)$"] : {
+					root : "/user/public/root/image"
+				}
+			}
+
+			domain["blog.potalab.com", "tech.potalab.com", "blog.*.com"] : {
+			    security : {
+			       auth : basic
+			       realm : 'potalab'
+			       user : [
+                       (admin, admin),
+                       (guest, guest)
+			       ]
+			    }
+
+				index :[index.html, index.htm]
+				root : /User/public/wwww
+				path["=/root"] : {
+				    autoindex : false,
+
+					root : "/user/public/blog/root"
+					filter["@request.uri == POST"] : {
+						addheader : ('a', 'b')
+						addheader : ('a', 'b')
+						addheader : ('a', 'b')
+						addheader : ('a', 'b')
+						setheader : ('b', 'b')
+					}
+
+					mimes : {
+					   (htm, text/html),
+					   (text, text/plain),
+					   (css, text/css),
+					   (xml, text/xml)
+					}
+
+					method : {
+						allow : GET
+						allow : POST
+						deny : all
+					}
+
+					filter["@request.method == POST"] : {
+					   return ('401', """
+					   The POST mehtod does not supported.
+					   """)
+					}
+
+					proxy : {
+					  to : @test
+					  addheader : ('X-Forward-For', @remote.addr)
+					  addheader : ('X-Forward-For', @remote.addr)
+					  addheader : ('X-Forward-For', @remote.addr)
+					  addheader : ('X-Forward-For', @remote.addr)
+					}
+				}
+
+				path["~.*\\.(js|jpg|png)$"] : {
+					root : "/user/public/blog/image"
+					notfound : (404, "not found")
+					found: (200, "Hello");
+				}
+			}
+		}
+	}
+
+	upstream[was] : {
+
+	}
+}
+
+                </textarea>
+            </div>
+            <div class="form-group">
+                <label for="url">Tested URL:</label>
+                <input type="text" id="url" class="form-control" onkeypress="mayberun(event); return true;">
+            </div>
+            <div clasj="form-group">
+                <input type="button" class="btn btn-primary btn-lg" onclick="run(); return false;" value="Test">
+            </div>
+        </div>
+        <div class="col-md-6" id="result">
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+http[7070] : {
+     domain["localhost", "127.0.0.1"] : {
+         add-header : {
+                   Connection : Close
+                }
+       return (200, """<html>
+<body>
+ <h1>Welcome !!</h1>
+ <br>
+ <table border=1>
+    <tr>
+        <td>Accept</td>
+        <td>${@accept}</td>
+    </tr>
+    <tr>
+        <td>Accept-Encoding</td>
+        <td>${@accept-encoding}</td>
+    </tr>
+   <tr>
+        <td>Accept-Language:</td>
+        <td>${@Accept-Language}</td>
+    </tr>
+    <tr>
+         <td>Cookie:</td>
+         <td>${@Cookie}</td>
+     </tr>
+ <tr>
+         <td>User-Agent:</td>
+         <td>${@User-Agent}</td>
+     </tr>
+ </table>
+ <a href="http://www.potalab.com:7070/index.html">index.html</a>
+</body>
+</html>""")
+     }
+
+      domain["www.potalab.com"] : {
+         add-header : {
+            Connection : Close
+         }
+         return (200, "1. ${uri} - ${method} - ok!")
+      }
+}

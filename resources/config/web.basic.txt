@@ -1,0 +1,7 @@
+http[7070, 9090] : {
+    domain : {
+        location : {
+            root : "/Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/public"
+        }
+    }
+}

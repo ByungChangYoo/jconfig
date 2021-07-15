@@ -1,0 +1,36 @@
+http[80] : {
+
+    map["${h:user_agent}", "user_agent_class"] : {
+        # Feed readers
+        "~[fF]eed"	 :	f
+        "~[nN]ews"	: f
+        "~[bB]log"	: f
+        "~*rss"	:	f
+        "~Apple-PubSub"	: f
+        # Bots
+        "~[bB]ot\b" :	b
+        "~[cC]rawler\b"	: b
+        "~[sS]pider\b"	: b
+        "~Yahoo! Slurp"	: b
+        "~ia_archiver"	: b
+
+        # Monitoring test traffic
+        "~nagios-plugins : t
+        "~Pingdom\.com" : t
+        "~HealthChecker" : t
+
+        # Users on browsers
+        "~ MSIE " : u
+        "~Gecko" : u
+        "~Safari/": u
+        "~Opera" : u
+        # Other
+        "default" :o
+    }
+
+   map["${h:host}" ,"domain"] : {
+       "~*^[^.]*\.(?P<domain>[a-z0-9-.]+\.[a-z]+)$" : "${g:domain}"
+       "default" : "unknown";
+   }
+   return("${m:domain}")
+}

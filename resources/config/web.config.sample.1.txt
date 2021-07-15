@@ -1,0 +1,36 @@
+http["7070"] : {
+     domain["www.potalab.com"] : {
+        location : {
+            return (200, """
+            <html>
+            <body>
+             <h1>Welcome !!</h1>
+             <br>
+             <a href="http://www.potalab.com:7070/index.html">index.html</a>
+            </body>
+            </html>
+            """)
+         }
+
+        path["index.html"] : {
+            return (200, "Good Job")
+         }
+     }
+
+     domain["localhost", "127.0.0.1"] : {
+        return(301, "http://www.potalab.com:7070")
+     }
+}
+
+http["9090"] : {
+    #  return (301, "http://localhost:7070")
+    # return (200, "Hello, 9090 Server")
+    domain["www.dalcomlab.com"] : {
+        return (200, "Welcome, Dalcom 9090 Server")
+    }
+
+     domain["localhost", "127.0.0.01"] : {
+            return (301, "http://www.potalab.com:7070")
+     }
+
+}

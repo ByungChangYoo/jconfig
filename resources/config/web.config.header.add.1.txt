@@ -1,0 +1,21 @@
+http[80] : {
+      header : {
+        "X-Frame-Options" : "DENY"
+        "X-Content-Type-Options" : "nosniff"
+      }
+
+    domain["localhost", "www.potalab.com"] : {
+
+           header : {
+             "X-Download-Options" : "noopen"
+           }
+
+           path["/"] : {
+               header : {
+                   "X-XSS-Protection" : "1; mode=block"
+               }
+
+               return("Hello")
+           }
+    }
+}

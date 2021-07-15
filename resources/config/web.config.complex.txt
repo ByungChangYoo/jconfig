@@ -1,0 +1,49 @@
+http[8080, 9090] : {
+     domain["*", "**"] : {
+         path["*"] : {
+            root : /www/public
+            header : {
+                # CROS 설정
+                "Access-Control-Allow-Origin" : "*"
+                "Access-Control-Allow-Credentials" : "true"
+            }
+        }
+   }
+}
+
+
+http[8080] : {
+     domain["www.dalcomlab.com"] : {
+         path["*"] : {
+            root : /www/public
+         }
+   }
+}
+
+http[9090, 7070] : {
+	domain["www.potalab.com"] : {
+	    path["/"] : {
+		    root : /www/public/potalab.com/
+		}
+	}
+
+	domain["blog.potalab.com" "tech.potalab.com" "help.potalab.com"] : {
+		path["*"] : {
+			root : /www/public/test/
+			method : {
+                    allow : [GET, POST]
+                    allow : HEAD
+                    deny : OPTIONS
+            }
+		}
+
+		path["~.*\.(js|jpg|png|html|htm)$"] : {
+        	root : /www/public/test/static/images/
+        	access : {
+        	    allow : [127.0.0.1, 127.0.0.100]
+        	    allow : 128.0.0.2
+        	    deny : all
+        	}
+        }
+	}
+}

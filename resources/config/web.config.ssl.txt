@@ -1,0 +1,15 @@
+http[7070] : {
+     domain["www.potalab.com", "localhost", "127.0.0.1"] : {
+        return (302, "https://www.potalab.com")
+     }
+}
+
+http["443 ssl"] : {
+     root : /Users/blueeyes/IdeaProjects/wafull-sattang-all/azumma/src/test/resources/
+     domain["www.potalab.com"] : {
+        # return (200, "ssl ok")
+        path["/post"]: {
+            return (200, "post - ok")
+        }
+     }
+}

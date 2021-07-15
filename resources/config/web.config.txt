@@ -1,0 +1,55 @@
+http[7070, 9090] : {
+
+     domain["www.potalab.com"] : {
+         #return (301, "http://www.dalcomlab.com:7070"),
+         send("index.a.html")
+         path["index.html"] : {
+             return (200, "a potalab! index.html")
+         }
+
+         path["home.html"] : {
+             return (200, "a potalab! home.html")
+         }
+
+         path["test.html"] : {
+             return (301, "http://www.dalcomlab.com:7070/index.html")
+         }
+
+        path["404.html", "500.html", "501.html", "300.html"] : {
+             return (200, "This is error page!!!")
+         }
+
+         path["~.*\.(js|jpg|png|css)$"] : {
+             return (200, "This is static file(js|jpg|png|css)")
+         }
+
+         error[404, 500] : error.html
+         error[404, 500] : error.html
+         error[404, 500] : @error
+
+         # named location
+         path[@error] : {
+            root : /error/
+         }
+
+         # default location
+         location : {
+
+         }
+     }
+
+     domain["www.dalcomlab.com"] : {
+         path["index.html"] : {
+             return (200, "b dalcomalb! index.html")
+         }
+
+         path["home.html"] : {
+             return (200, "b dalcomalb! home.html")
+         }
+    }
+
+    # default domain
+    domain : {
+
+    }
+}

@@ -1,0 +1,17 @@
+http["80"] : {
+    domain["localhost"] : {
+        path["/"] : {
+            switch("^/user/(\w+)", "$1") : {
+                "=yoo" : return ("Inline Hello, yoo")
+                "=hong" : return ("Inline Hello, hong")
+                "" : {
+                    switch("${method}") : {
+                       "GET" : return ("Inline You are not user! - GET")
+                        "POST" : return ("Inline You are not user! - POST")
+                        "" : return ("Inline You are not user! - Unknown")
+                     }
+                }
+            }
+        }
+    }
+}

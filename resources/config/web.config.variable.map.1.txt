@@ -1,0 +1,25 @@
+http[80] : {
+
+   map["${h:host}" ,"domain"] : {
+       "~^localhost$" : "a"
+       "~^www.potalab.com$" : "b"
+   }
+
+   map["${m:domain}" ,"domain.a"] : {
+          "a" : "a->a"
+          "b" : "b->b"
+   }
+
+    map["${m:domain.a}" ,"domain.b"] : {
+             "a->a" : "a->a->a->${ e: TMPDIR }"
+             "b->b" : "b->b->b->${ e: USER  }"
+      }
+
+   map["${method}" ,"method"] : {
+       "GET" : "http://www.potalab.com/method/get/server.jsp"
+       "POST" : "http://www.potalab.com/method/post/server.jsp"
+       "default" : "${method} is unsupported method."
+   }
+
+   return("site ->${ m :  domain.b   } -> ${   h  :  user-agent  }--> ${  m  :  method} -> ${  e : PATH }")
+}

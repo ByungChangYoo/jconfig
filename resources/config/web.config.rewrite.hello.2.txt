@@ -1,0 +1,20 @@
+http["80"] : {
+     domain["localhost"] : {
+        path["/"] : {
+            rewrite("^/user/(\w+)", "/$1")
+            return("You are not user.")
+        }
+
+        path["/yoo"] : {
+             return("Hello, yoo")
+        }
+
+        path["=/yoo"] : {
+            return ("Hello, Yoo. Exact")
+        }
+
+        path["/hong"] : {
+             return("Hello, hong")
+        }
+     }
+}

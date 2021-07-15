@@ -1,0 +1,94 @@
+http[8080, 9090] : {
+     mime : {
+       "text/html" : [html, htm]
+       "text/xml" : xml
+       "text/plain" : [txt, config, conf, md]
+     }
+     domain["www.potalab.com"] : {
+         path["*"] : {
+            root : /www/public
+            add-header : {
+               "Server" : "potalab"
+            }
+            index : [a.html, b.htm, c.html]
+         }
+       }
+     domain["www.dalcomlab.com"] : {
+         path["*"] : {
+            root : /www/public
+            add-header : {
+               "Server" : "dalcomlab"
+            }
+            index : [d.html, e.htm, f.html]
+         }
+   }
+}
+
+
+http[9090] : {
+    mime : {
+       "text/html" : xhtml
+       "text/js" : js
+       "text/css" : css
+    }
+    domain["www.potalab.com"] : {
+         path["*"] : {
+            root : /www/potalab/com
+         }
+       }
+     domain["www.dalcomlab.com"] : {
+         path["*"] : {
+           root : /www/dalcomlab/com
+         }
+   }
+}
+
+http[1010] : {
+    domain["*"] : {
+         path["*"] : {
+            proxypass : http://127.0.0.1:9090
+         }
+    }
+}
+
+http[1111] : {
+    domain ["*"] : {
+         location ["*"] : {
+            proxypass : "http://127.0.0.1:9090"  {
+                version : "http/1.1"
+                set-header : {
+                   "Connection" : "close"
+                   "X-Real-IP" : $remote_addr
+                   "X-Forward-Host" : $proxy_add_x_forward_for
+                   "Host" : $http_host
+               } 
+            }
+         }
+    }
+}
+
+
+
+http[6060] : {
+    domain["*"] : {
+         path["*"] : {
+            proxypass @was : {
+               set-header : {
+                   "Connection" : "close"
+                   "X-Real-IP" : $remote_addr
+                   "X-Forward-Host" : $proxy_add_x_forward_for
+                   "Host" : $http_host
+               } 
+            }
+         }
+    }
+}
+
+
+upstream["was"] : {
+    mode : "round-robin | hash | ip-hash | random | least_conn | least_time"
+    keepalive: 100
+    server : 127.0.0.1:7000 {weight:10 max_conns:10 max_fails:20 fail_timeout:20 backup:true down:true}
+    server : 127.0.0.1:8000
+    server : 127.0.0.1:9000
+}
